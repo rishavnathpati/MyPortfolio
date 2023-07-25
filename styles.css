@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  display: flex;
+}
+
+.navbar {
+  background-color: #00a86b; /* Green color */
+  display: flex;
+  justify-content: flex-start; /* Align tabs to the left */
+  align-items: center;
+  height: 60px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  background-color: #00914d; /* Darker green color on hover */
+}
+
+.quick-links {
+  background-color: #e2ffdb; /* Light green background */
+  width: 20%;
+  margin: 40px;
+  padding-bottom: 300px; /* Updated padding */
+  float: right;
+}
+
+.welcome-section {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin: 30px;
+  float: left;
+  width: 80%;
+}
+
+.quick-links h2 {
+  background-color: #00a86b; /* Green background for the heading */
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin-bottom: 10px;
+  padding-right: 150px;
+  padding-left: 10px;
+
+}
+
+.quick-links a {
+  color: #00a86b; /* Green color for the links */
+  text-decoration: none;
+}
+
+.quick-links a:hover {
+  text-decoration: underline;
+}
+
+.bottom-navbar {
+  background-color: #00a86b; /* Green color */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
+}
