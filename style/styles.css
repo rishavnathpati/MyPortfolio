@@ -9,7 +9,8 @@ body {
 }
 
 .navbar {
-  background-color: #33a367; /* Darker green color */
+  background-color: #33a367;
+  /* Darker green color */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -23,11 +24,13 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #2a864f; /* Darker green color on hover */
+  background-color: #2a864f;
+  /* Darker green color on hover */
 }
 
 .quick-links {
-  background-color: #d2ffd7; /* Lighter green background */
+  background-color: #d2ffd7;
+  /* Lighter green background */
   width: 30%;
   margin: 57px;
   padding-bottom: 52px;
@@ -46,7 +49,8 @@ body {
 }
 
 .quick-links h2 {
-  background-color: #33a367; /* Darker green background for the heading */
+  background-color: #33a367;
+  /* Darker green background for the heading */
   color: white;
   padding: 10px;
   margin: 0;
@@ -63,7 +67,8 @@ body {
 }
 
 .quick-links a {
-  color: #33a367; /* Darker green color for the links */
+  color: #33a367;
+  /* Darker green color for the links */
   text-decoration: none;
 }
 
@@ -72,7 +77,8 @@ body {
 }
 
 .bottom-navbar {
-  background-color: #33a367; /* Darker green color */
+  background-color: #33a367;
+  /* Darker green color */
   position: fixed;
   bottom: 0;
   left: 0;
@@ -94,15 +100,6 @@ body {
   width: 60%;
 }
 
-/* Custom styles for the table */
-.profile-details table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 30px 10px; /* Increased spacing between table columns and rows */
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  margin-top: 20px;
-}
-
 .profile-details th,
 .profile-details td {
   padding: 10px;
@@ -110,28 +107,21 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-.profile-details th {
-  font-weight: bold;
-}
-
-.profile-details td {
-  font-size: 20px;
-  color: #333;
-}
-
-/* Add this CSS to create a grid layout */
 .welcome-section .image-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns in the grid */
-  grid-gap: 10px; /* Gap between images */
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 columns in the grid */
+  grid-gap: 10px;
+  /* Gap between images */
   width: 90%;
-  margin: 0 auto; /* Center the grid */
+  margin: 0 auto;
+  /* Center the grid */
   border: 3px solid rgb(2, 80, 2);
 }
 
 .welcome-section .image-grid img {
   width: 100%;
-  height: auto; /* To maintain the aspect ratio of the images */
+  height: auto;
+  /* To maintain the aspect ratio of the images */
   display: block;
 }
-
