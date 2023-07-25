@@ -9,9 +9,11 @@ body {
 }
 
 .navbar {
-  background-color: #00a86b; /* Green color */
+  background-color: #00a86b;
+  /* Green color */
   display: flex;
-  justify-content: flex-start; /* Align tabs to the left */
+  justify-content: flex-start;
+  /* Align tabs to the left */
   align-items: center;
   height: 60px;
 }
@@ -19,32 +21,39 @@ body {
 .navbar a {
   color: white;
   text-decoration: none;
-  padding: 10px 20px; /* Corrected padding syntax */
+  padding: 10px 20px;
+  /* Corrected padding syntax */
 }
 
 .navbar a:hover {
-  background-color: #00914d; /* Darker green color on hover */
+  background-color: #00914d;
+  /* Darker green color on hover */
 }
 
 .quick-links {
-  background-color: #e2ffdb; /* Light green background */
-  width: 20%;
-  margin: 40px;
-  padding-bottom: 300px; /* Updated padding */
-  float: right;
+  background-color: #e2ffdb;
+  width: 30%;
+  margin: 57px;
+  padding-bottom: 52px;
+  position: fixed;
+  top: 20px;
+  right: -40px;
 }
 
 .welcome-section {
   border-radius: 20px;
-  padding: 20px; /* Increased padding for better appearance */
+  padding: 20px;
+  /* Increased padding for better appearance */
   background-color: #f0f0f0;
   margin: 30px;
   float: left;
-  width: 76%; /* Adjusted width to make space for 4% margin */
+  width: 60%;
+  /* Adjusted width to make space for 4% margin */
 }
 
 .quick-links h2 {
-  background-color: #00a86b; /* Green background for the heading */
+  background-color: #00a86b;
+  /* Green background for the heading */
   color: white;
   padding: 10px;
   margin: 0;
@@ -57,11 +66,13 @@ body {
 
 .quick-links li {
   margin-bottom: 10px;
-  padding-left: 10px; /* Adjusted left padding for better separation */
+  padding-left: 10px;
+  /* Adjusted left padding for better separation */
 }
 
 .quick-links a {
-  color: #00a86b; /* Green color for the links */
+  color: #00a86b;
+  /* Green color for the links */
   text-decoration: none;
 }
 
@@ -70,7 +81,8 @@ body {
 }
 
 .bottom-navbar {
-  background-color: #00a86b; /* Green color */
+  background-color: #00a86b;
+  /* Green color */
   position: fixed;
   bottom: 0;
   left: 0;
@@ -83,13 +95,15 @@ body {
   color: white;
 }
 
-.profile-details{
+.profile-details {
   border-radius: 20px;
-  padding: 20px; /* Increased padding for better appearance */
+  padding: 20px;
+  /* Increased padding for better appearance */
   background-color: #f0f0f0;
   margin: 30px;
   float: left;
-  width: 76%; /* Adjusted width to make space for 4% margin */
+  width: 70%;
+  /* Adjusted width to make space for 4% margin */
 }
 
 /* Custom styles for the table */
@@ -98,12 +112,14 @@ body {
   border-collapse: separate;
   border-spacing: 80px 15px;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  margin-top: 20px; /* Added margin between table and heading */
+  margin-top: 20px;
+  /* Added margin between table and heading */
 }
 
 .profile-details th,
 .profile-details td {
-  padding: 10px; /* Increased padding for better appearance */
+  padding: 10px;
+  /* Increased padding for better appearance */
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
@@ -116,5 +132,3 @@ body {
   font-size: 20px;
   color: #333;
 }
-
-/* Add more custom styles here as needed */
