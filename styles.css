@@ -43,6 +43,15 @@ body {
   width: 80%;
 }
 
+/* .quick-links{
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin: 30px;
+  float: right;
+  width: 20%;
+} */
+
 .quick-links h2 {
   background-color: #00a86b; /* Green background for the heading */
   color: white;
