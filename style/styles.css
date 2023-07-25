@@ -118,3 +118,20 @@ body {
   font-size: 20px;
   color: #333;
 }
+
+/* Add this CSS to create a grid layout */
+.welcome-section .image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns in the grid */
+  grid-gap: 10px; /* Gap between images */
+  width: 90%;
+  margin: 0 auto; /* Center the grid */
+  border: 3px solid rgb(2, 80, 2);
+}
+
+.welcome-section .image-grid img {
+  width: 100%;
+  height: auto; /* To maintain the aspect ratio of the images */
+  display: block;
+}
+
