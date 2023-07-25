@@ -9,11 +9,9 @@ body {
 }
 
 .navbar {
-  background-color: #00a86b;
-  /* Green color */
+  background-color: #33a367; /* Darker green color */
   display: flex;
   justify-content: flex-start;
-  /* Align tabs to the left */
   align-items: center;
   height: 60px;
 }
@@ -22,16 +20,14 @@ body {
   color: white;
   text-decoration: none;
   padding: 10px 20px;
-  /* Corrected padding syntax */
 }
 
 .navbar a:hover {
-  background-color: #00914d;
-  /* Darker green color on hover */
+  background-color: #2a864f; /* Darker green color on hover */
 }
 
 .quick-links {
-  background-color: #e2ffdb;
+  background-color: #d2ffd7; /* Lighter green background */
   width: 30%;
   margin: 57px;
   padding-bottom: 52px;
@@ -43,17 +39,14 @@ body {
 .welcome-section {
   border-radius: 20px;
   padding: 20px;
-  /* Increased padding for better appearance */
   background-color: #f0f0f0;
   margin: 30px;
   float: left;
   width: 60%;
-  /* Adjusted width to make space for 4% margin */
 }
 
 .quick-links h2 {
-  background-color: #00a86b;
-  /* Green background for the heading */
+  background-color: #33a367; /* Darker green background for the heading */
   color: white;
   padding: 10px;
   margin: 0;
@@ -67,12 +60,10 @@ body {
 .quick-links li {
   margin-bottom: 10px;
   padding-left: 10px;
-  /* Adjusted left padding for better separation */
 }
 
 .quick-links a {
-  color: #00a86b;
-  /* Green color for the links */
+  color: #33a367; /* Darker green color for the links */
   text-decoration: none;
 }
 
@@ -81,8 +72,7 @@ body {
 }
 
 .bottom-navbar {
-  background-color: #00a86b;
-  /* Green color */
+  background-color: #33a367; /* Darker green color */
   position: fixed;
   bottom: 0;
   left: 0;
@@ -98,28 +88,24 @@ body {
 .profile-details {
   border-radius: 20px;
   padding: 20px;
-  /* Increased padding for better appearance */
   background-color: #f0f0f0;
   margin: 30px;
   float: left;
   width: 60%;
-  /* Adjusted width to make space for 4% margin */
 }
 
 /* Custom styles for the table */
 .profile-details table {
   width: 100%;
   border-collapse: separate;
-  border-spacing: 80px 15px;
+  border-spacing: 30px 10px; /* Increased spacing between table columns and rows */
   font-family: "Helvetica Neue", Arial, sans-serif;
   margin-top: 20px;
-  /* Added margin between table and heading */
 }
 
 .profile-details th,
 .profile-details td {
   padding: 10px;
-  /* Increased padding for better appearance */
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
