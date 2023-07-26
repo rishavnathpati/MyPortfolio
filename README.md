@@ -19,10 +19,9 @@ This project is a personal portfolio website built with HTML, CSS, and JavaScrip
 - Album section with a grid layout to showcase images.
 
 ## Project Images
-![Project Image 1](Assets/album1.png)
-![Project Image 2](Assets/album2.png)
-![Project Image 3](Assets/album3.png)
-![Project Image 4](Assets/album4.png)
+![Project Image 1](Assets/demo1.png)
+![Project Image 2](Assets/demo2.png)
+![Project Image 3](Assets/demo3.png)
 
 ## Getting Started
 
